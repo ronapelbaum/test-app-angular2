@@ -5,6 +5,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --progress --port 8080",
     "test": "karma start",
+    "clean": "rimraf dist coverage",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
     "postinstall": "typings install --proxy http://web-proxy.il.hpecorp.net:8080 --https-proxy http://web-proxy.il.hpecorp.net:8080"
   },
