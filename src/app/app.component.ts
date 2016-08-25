@@ -7,7 +7,7 @@ import {HeroesComponent} from "./heroes/heroes.components";
         HeroesComponent
     ],
     template: `<h1>{{title}}</h1>
-               <heroes></heroes>`
+               <toh></toh>`
 })
 export class AppComponent {
     title = 'Tour of Heroes';
